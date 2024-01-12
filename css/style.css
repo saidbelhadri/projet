@@ -1,0 +1,143 @@
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: silver;
+}
+
+
+/*Menu*/
+nav {
+    position: sticky;
+    z-index: 9;
+    top: 0;
+
+}
+nav ul {
+padding: 10px 30px;
+margin: 0;
+list-style: none; 
+display: flex; 
+justify-content: space-between;
+background-color:rgb(151, 151, 151,50)
+}
+nav a {
+    text-decoration: none;
+    color: black; 
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+.cmenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:rgb(151, 151, 151,50);
+  }
+
+ #hover-menu:hover .cmenu{
+    display: block;
+  }
+
+
+/* corp*/
+
+#emballage{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    row-gap: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+.emballage-contenu{
+    height: fit-content;
+    width: 100%;
+}
+.etiquette{
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    border-radius: 0 10px 0 0;
+    padding: 5px 5px;
+}
+.etiquette p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: aliceblue;
+    margin: 0;
+}
+#Fond{
+    background-image: url(../images/fond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+#Fond h2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+  
+  }
+  
+#Actulaties,
+#News{
+    display: flex;
+    justify-content :space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    background-color:whitesmoke   
+}
+
+#Statistiques{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 40px 20px;
+    background-color:whitesmoke 
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+.carte {
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carte img {
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .carte-contenu {
+    padding: 20px;
+  }
+  
+  .carte-contenu h2 {
+    margin-top: 0;
+  }
+  
+  .carte-contenu p {
+    margin-bottom: 0;
+  }
+
+
+
+
